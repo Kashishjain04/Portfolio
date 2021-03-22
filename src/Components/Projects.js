@@ -4,10 +4,10 @@ import "../assets/css/Projects.css";
 
 const Projects = () => {
   return (
-    <div className="work section" id="work">
+    <div className="work section" id="projects">
       <h2 className="section-title">Projects</h2>
 
-      <div className="work__container bd-grid">
+      <div className="projects__container bd-grid">
         <ProjectCard
           name="Covid-19 Dashboard"
           link="https://cov19india.live"

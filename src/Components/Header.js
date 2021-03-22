@@ -19,9 +19,6 @@ const Header = () => {
       <nav className="nav bd-grid">
         <div>
           <img src="icons/logo.png" alt="" className="nav__logo" />
-          {/* <a href="#home" className="nav__logo">
-            Kashish
-          </a> */}
         </div>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
@@ -45,8 +42,8 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#work" className="nav__link" onClick={navLinkAction}>
-                Work
+              <a href="#projects" className="nav__link" onClick={navLinkAction}>
+                Projects
               </a>
             </li>
             <li className="nav__item">

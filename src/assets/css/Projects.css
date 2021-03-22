@@ -1,4 +1,4 @@
-.work__container {
+.projects__container {
   row-gap: 2rem;
 }
 .project__img {
@@ -15,7 +15,7 @@
   transform: scale(1.1);
 }
 @media screen and (min-width: 768px) {
-  .work__container {
+  .projects__container {
     grid-template-columns: repeat(3, 1fr) !important;
     grid-template-rows: repeat(2, 1fr) !important;
     column-gap: 2rem;
