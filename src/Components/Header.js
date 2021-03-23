@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { scrollSpy } from "react-scroll";
+import React from "react";
 import "../assets/css/Header.css";
 import NavItem from "./SmallComponents/NavItem";
 import ScrollspyNav from "react-scrollspy-nav";
@@ -9,10 +8,6 @@ const Header = () => {
     const nav = document.getElementById("nav-menu");
     nav.classList.toggle("show");
   };
-
-  useEffect(() => {
-    scrollSpy.update();
-  });
 
   return (
     <div className="l-header">
