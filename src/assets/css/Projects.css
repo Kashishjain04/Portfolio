@@ -8,6 +8,7 @@
   padding: 20px;
 }
 .project__img img {
+  margin: auto;
   transition: 1s;
   cursor: pointer;
 }

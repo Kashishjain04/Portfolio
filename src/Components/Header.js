@@ -1,18 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { scrollSpy } from "react-scroll";
 import "../assets/css/Header.css";
+import NavItem from "./SmallComponents/NavItem";
+import ScrollspyNav from "react-scrollspy-nav";
 
 const Header = () => {
   const toggleNav = () => {
     const nav = document.getElementById("nav-menu");
     nav.classList.toggle("show");
   };
-  const navLinkAction = (e) => {
-    const navLinks = document.querySelectorAll(".nav__link");
-    navLinks.forEach((n) => n.classList.remove("active"));
-    e.target.classList.add("active");
 
-    document.getElementById("nav-menu").classList.remove("show");
-  };
+  useEffect(() => {
+    scrollSpy.update();
+  });
 
   return (
     <div className="l-header">
@@ -21,37 +21,21 @@ const Header = () => {
           <img src="icons/logo.png" alt="" className="nav__logo" />
         </div>
         <div className="nav__menu" id="nav-menu">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a
-                href="#home"
-                className="nav__link active"
-                onClick={navLinkAction}
-              >
-                Home
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#about" className="nav__link" onClick={navLinkAction}>
-                About
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#skills" className="nav__link" onClick={navLinkAction}>
-                Skills
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#projects" className="nav__link" onClick={navLinkAction}>
-                Projects
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#contact" className="nav__link" onClick={navLinkAction}>
-                Contact
-              </a>
-            </li>
-          </ul>
+          <ScrollspyNav
+            className="nav__menu"
+            scrollTargetIds={["home", "about", "skills", "projects", "contact"]}
+            offset={-50}
+            activeNavClass="active"
+            scrollDuration="150"
+          >
+            <ul className="nav__list">
+              <NavItem to="#home" name="Home" />
+              <NavItem to="#about" name="About" />
+              <NavItem to="#skills" name="Skills" />
+              <NavItem to="#projects" name="Projects" />
+              <NavItem to="#contact" name="Contact" />
+            </ul>
+          </ScrollspyNav>
         </div>
         <div onClick={toggleNav} className="nav__toggle" id="nav-toggle">
           <i className="bx bx-menu"></i>

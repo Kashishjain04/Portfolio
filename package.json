@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1"
+    "react-scripts": "^4.0.1",
+    "react-scrollspy-nav": "^1.2.4",
+    "scrollreveal": "^4.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
