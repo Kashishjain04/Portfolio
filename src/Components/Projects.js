@@ -15,6 +15,12 @@ const Projects = () => {
           src="assets/img/covid.png"
         />
         <ProjectCard
+          name="Personal Portfolio"
+          link="https://kashishjain.tech"
+          repo="https://github.com/Kashishjain04/Portfolio"
+          src="icons/logo.png"
+        />
+        <ProjectCard
           name="Bahi-Book"
           link="https://bahi-book.web.app"
           repo="https://github.com/Kashishjain04/bahi-book"
@@ -34,6 +40,7 @@ const Projects = () => {
         />
         <ProjectCard
           name="Mummy Da Dhaba"
+          link="https://momkitchens.me"
           repo="https://github.com/Kashishjain04/momkitchen_react"
           src="assets/img/Mymmydadhaba.png"
         />

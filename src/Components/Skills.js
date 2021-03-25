@@ -8,7 +8,6 @@ const Skills = () => (
 
     <div className="skills__container bd-grid">
       <div>
-        <h2 className="skills__subtitle">Profesional Skills</h2>
         <SkillCard name="HTML5" level={90} iconClass="bxl-html5" />
         <SkillCard name="CSS3" level={90} iconClass="bxl-css3" />
         <SkillCard name="JAVASCRIPT" level={90} iconClass="bxl-javascript" />

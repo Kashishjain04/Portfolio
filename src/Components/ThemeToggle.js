@@ -16,8 +16,6 @@ const ThemeToggle = () => {
   const changeTheme = () => {
     const currentTheme = htmlEl.attributes.theme.nodeValue;
     const newTheme = String((Number(currentTheme) + 1) % 3);
-    console.log(currentTheme);
-    console.log(newTheme);
     htmlEl.classList.remove("theme" + currentTheme);
     htmlEl.classList.add("theme" + newTheme);
     htmlEl.setAttribute("theme", newTheme);
@@ -30,7 +28,6 @@ const ThemeToggle = () => {
         <div className="secondHalf"></div>
       </div>
       <div onClick={changeTheme} className="themeArrow">
-        {/* &#10515; */}
         <i className="bx bxs-down-arrow"></i>
       </div>
     </>
