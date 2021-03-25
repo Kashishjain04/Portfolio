@@ -4,10 +4,29 @@
 }
 
 /* Colors */
-:root {
+html.theme0 {
   --first-color: #4070f4;
   --second-color: #0e2431;
   --third-color: #d0dbe2;
+  --fourth-color: #ffffff;
+  --nav-bg: #ffffff;
+  --sidebar-bg: #0e2431;
+}
+html.theme1 {
+  --first-color: #ff7c1f;
+  --second-color: #311b0e;
+  --third-color: #d0dbe2;
+  --fourth-color: #ffffff;
+  --nav-bg: #ffffff;
+  --sidebar-bg: #311b0e;
+}
+html.theme2 {
+  --first-color: #b3b3b3;
+  --second-color: #ffffff;
+  --third-color: #d0dbe2;
+  --fourth-color: #121212;
+  --nav-bg: #181818;
+  --sidebar-bg: #363636;
 }
 
 /* Font */

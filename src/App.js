@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import ScrollReveal from "scrollreveal";
 import "./assets/css/Variables.css";
 import "./assets/css/Main.css";
+import ThemeToggle from "./Components/ThemeToggle";
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <div className="App">
+      <ThemeToggle />
       <Header />
       <div className="l-main">
         <Home />
