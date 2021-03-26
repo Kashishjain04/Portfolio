@@ -12,7 +12,7 @@ const Home = () => (
       </h1>
 
       <a
-        href="/assets/Resume.pdf"
+        href="/assets/Kashish Jain - Resume.pdf"
         className="button"
         download="Kashish Jain - Resume"
       >
