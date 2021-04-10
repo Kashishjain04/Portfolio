@@ -27,6 +27,12 @@ const Projects = () => {
           src="https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7"
         />
         <ProjectCard
+          name="Google Clone"
+          link="https://google-04.vercel.app/"
+          repo="https://github.com/Kashishjain04/Google-Clone"
+          src="assets/img/google.svg"
+        />
+        <ProjectCard
           name="WhatsApp Clone"
           link="https://webwhatsapp.netlify.app"
           repo="https://github.com/Kashishjain04/Whatsapp-Clone-client"
