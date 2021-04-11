@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/Skills.css";
+import { skills } from "../data";
 import SkillCard from "./SmallComponents/SkillCard";
 
 const Skills = () => (
@@ -9,20 +10,23 @@ const Skills = () => (
     <div className="skills__container bd-grid">
       <h2 className="skills__subtitle">Languages</h2>
       <div className="skills__list bd-grid">
-        <SkillCard name="HTML5" iconClass="bxl-html5" />
-        <SkillCard name="CSS3" iconClass="bxl-css3" />
-        <SkillCard name="JAVASCRIPT" iconClass="bxl-javascript" />
-        <SkillCard name="C++" iconClass="bxl-c-plus-plus" />
-        <SkillCard name="PYTHON" iconClass="bxl-python" />
+        {skills.languages.map((lang) => (
+          <SkillCard
+            key={lang.name}
+            name={lang.name}
+            iconClass={lang.iconClass}
+          />
+        ))}
       </div>
       <h2 className="skills__subtitle">Technologies</h2>
       <div className="skills__list bd-grid">
-        <SkillCard name="REACT" iconClass="bxl-react" />
-        <SkillCard name="REDUX" iconClass="bxl-redux" />
-        <SkillCard name="FIREBASE" iconClass="bxl-firebase" />
-        <SkillCard name="NODE.JS" iconClass="bxl-nodejs" />
-        <SkillCard name="MONGODB" iconClass="bx-data" />
-        <SkillCard name="EXPRESS" iconClass="bx-server" />
+        {skills.technologies.map((tech) => (
+          <SkillCard
+            key={tech.name}
+            name={tech.name}
+            iconClass={tech.iconClass}
+          />
+        ))}
       </div>
     </div>
   </div>
