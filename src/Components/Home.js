@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/Home.css";
+import { name, surname, title } from "../data";
 
 const Home = () => (
   <div className="home bd-grid" id="home">
@@ -7,8 +8,8 @@ const Home = () => (
       <h1 className="home__title">
         Hi,
         <br />
-        I'am <span className="home__title-color">Kashish Jain</span>
-        <br /> Web Developer
+        I'am <span className="home__title-color">{name + " " + surname}</span>
+        <br /> {title}
       </h1>
 
       <a
@@ -42,7 +43,6 @@ const Home = () => (
         id="457bf273-24a3-4fd8-a857-e9b918267d6a"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        // xmlns:xlink="http://www.w3.org/1999/xlink"
         width="698"
         height="698"
         viewBox="0 0 698 698"

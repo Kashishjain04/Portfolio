@@ -1,3 +1,16 @@
+export const name = "Kashish";
+export const surname = "Jain";
+export const title = "Web Developer";
+
+export const about = (
+  <>
+    Enthusiastic <b>Web Developer, Freelancer</b> eager to contribute to team
+    success through hard work, attention to detail and excellent organizational
+    skills. Clear understanding of Javascript, React, Redux and MERN. Motivated
+    to learn, grow and excel in the Dev industry.
+  </>
+);
+
 export const projects = [
   {
     name: "Covid-19 Dashboard",
@@ -94,3 +107,17 @@ export const skills = {
     },
   ],
 };
+export const contacts = [
+  {
+    href: "mailto:jainabhishek7204@gmail.com",
+    iconClass: "bx-mail-send",
+  },
+  {
+    href: "https://www.linkedin.com/in/kashishjain04",
+    iconClass: "bx-linkedin",
+  },
+  {
+    href: "https://github.com/Kashishjain04",
+    iconClass: "bx-github",
+  },
+];
