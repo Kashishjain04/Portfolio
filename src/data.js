@@ -32,6 +32,12 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7",
   },
   {
+    name: "Huntegy",
+    link: "https://huntegy.web.app",
+    repo: "https://github.com/kashishjain04/huntegy",
+    src: "assets/img/huntegy.png",
+  },
+  {
     name: "Google Clone",
     link: "https://google-04.vercel.app/",
     repo: "https://github.com/Kashishjain04/Google-Clone",
