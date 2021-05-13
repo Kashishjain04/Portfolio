@@ -28,8 +28,13 @@ export const projects = [
     name: "Bahi-Book",
     link: "https://bahi-book.web.app",
     repo: "https://github.com/Kashishjain04/bahi-book",
-    src:
-      "https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7",
+    src: "https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7",
+  },
+  {
+    name: "ChatDeck",
+    link: "https://chatdeck-04.web.app",
+    repo: "https://github.com/Kashishjain04/chatdeck",
+    src: "assets/img/chatdeck.png",
   },
   {
     name: "Huntegy",
