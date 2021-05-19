@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProjectCard = ({ name, link, repo, src }) => (
-  <div className="project__img">
-    <img src={src} alt="" />
+const ProjectCard = ({ name, link, repo, src, ...other }) => (
+  <div className="project__img" {...other}>
+    <img src={src} alt="" /> 
     <div className="project__overlay">
       <h2 className="project__name">{name}</h2>
       <div className="project__overlayDetails">

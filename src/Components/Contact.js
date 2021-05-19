@@ -9,14 +9,20 @@ const Contact = () => (
       <ContactCard
         href="mailto:jainabhishek7204@gmail.com"
         iconClass="bx-mail-send"
+        data-aos="fade-down"
+        data-aos-duration="600"
       />
       <ContactCard
         href="https://www.linkedin.com/in/kashishjain04/"
         iconClass="bxl-linkedin"
+        data-aos="fade-down"
+        data-aos-duration="1000"
       />
       <ContactCard
         href="https://github.com/Kashishjain04"
         iconClass="bxl-github"
+        data-aos="fade-down"
+        data-aos-duration="1400"
       />
     </div>
   </div>

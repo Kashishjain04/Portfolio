@@ -7,13 +7,13 @@ const About = () => (
     <h2 className="section-title">About</h2>
 
     <div className="about__container bd-grid">
-      <div className="about__img">
+      <div className="about__img" data-aos="fade-right">
         <img src="/assets/img/about.png" alt="" />
       </div>
 
       <div>
-        <h2 className="about__subtitle">I'am {name}</h2>
-        <p className="about__text">{about}</p>
+        <h2 className="about__subtitle" data-aos="fade-left" data-aos-duration="750">I'am {name}</h2>
+        <p className="about__text" data-aos="fade-left">{about}</p>
       </div>
     </div>
   </div>

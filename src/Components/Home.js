@@ -5,7 +5,7 @@ import { name, surname, title } from "../data";
 const Home = () => (
   <div className="home bd-grid" id="home">
     <div className="home__data">
-      <h1 className="home__title">
+      <h1 className="home__title" data-aos="fade-down" data-aos-duration="750">
         Hi,
         <br />
         I'am <span className="home__title-color">{name + " " + surname}</span>
@@ -13,6 +13,7 @@ const Home = () => (
       </h1>
 
       <a
+      data-aos="fade-down"
         href="/assets/Kashish Jain - Resume.pdf"
         className="button"
         download="Kashish Jain - Resume"
@@ -21,7 +22,7 @@ const Home = () => (
       </a>
     </div>
 
-    <div className="home__social">
+    <div className="home__social" data-aos="fade-right">
       <a
         href="https://www.linkedin.com/in/kashishjain04/"
         target="blank"
@@ -38,7 +39,7 @@ const Home = () => (
       </a>
     </div>
 
-    <div className="home__img">
+    <div className="home__img" data-aos="fade-left">
       <svg
         id="457bf273-24a3-4fd8-a857-e9b918267d6a"
         data-name="Layer 1"
@@ -107,8 +108,7 @@ const Home = () => (
         />
         <ellipse cx="194.86" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
         <ellipse cx="497.8" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
-      </svg>
-      {/* <img src="assets/img/avatar.svg" alt="" /> */}
+      </svg>      
     </div>
   </div>
 );
