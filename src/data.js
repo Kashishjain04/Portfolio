@@ -44,25 +44,25 @@ export const projects = [
   },
   {
     name: "Google Clone",
-    link: "https://google-04.vercel.app/",
+    link: "https://kj-google.vercel.app/",
     repo: "https://github.com/Kashishjain04/Google-Clone",
     src: "assets/img/google.svg",
   },
   {
     name: "Whatsapp Clone",
-    link: "https://webwhatsapp.netlify.app",
+    link: "https://whatsapp.kashishjain.tech/",
     repo: "https://github.com/Kashishjain04/Whatsapp-Clone-client",
     src: "assets/img/whatsapp.png",
   },
-  {
-    name: "Instagram Clone",
-    link: "http://instagram-4.herokuapp.com/",
-    repo: "https://github.com/Kashishjain04/Instagram-clone",
-    src: "assets/img/instagram.png",
-  },
+  // {
+  //   name: "Instagram Clone",
+  //   link: "http://instagram-4.herokuapp.com/",
+  //   repo: "https://github.com/Kashishjain04/Instagram-clone",
+  //   src: "assets/img/instagram.png",
+  // },
   {
     name: "Mummy Da Dhaba",
-    link: "https://momkitchens.me",
+    // link: "https://momkitchens.me",
     repo: "https://github.com/Kashishjain04/momkitchen_react",
     src: "assets/img/Mymmydadhaba.png",
   },
@@ -73,48 +73,59 @@ export const skills = {
     {
       name: "HTML5",
       iconClass: "bxl-html5",
+      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
     },
     {
       name: "CSS3",
       iconClass: "bxl-css3",
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
       name: "JAVASCRIPT",
       iconClass: "bxl-javascript",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
       name: "C++",
       iconClass: "bxl-c-plus-plus",
+      link: "https://www.w3schools.com/cpp/",
     },
     {
       name: "PYTHON",
       iconClass: "bxl-python",
+      link: "https://docs.python.org/3/",
     },
   ],
   technologies: [
     {
       name: "REACT",
       iconClass: "bxl-react",
+      link: "https://reactjs.org/docs/getting-started.html",
     },
     {
       name: "REDUX",
       iconClass: "bxl-redux",
+      link: "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
     },
     {
       name: "FIREBASE",
       iconClass: "bxl-firebase",
+      link: "https://firebase.google.com/docs",
     },
     {
       name: "NODE.JS",
       iconClass: "bxl-nodejs",
+      link: "https://nodejs.org/en/docs/",
     },
     {
       name: "MONGODB",
       iconClass: "bx-data",
+      link: "https://docs.mongodb.com/manual/",
     },
     {
       name: "EXPRESS",
       iconClass: "bx-server",
+      link: "https://expressjs.com/en/4x/api.html",
     },
   ],
 };
