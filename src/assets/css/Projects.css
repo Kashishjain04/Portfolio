@@ -17,6 +17,7 @@ html.theme2 .project__img {
   }
 }
 .project__img img {
+  filter: drop-shadow(2px 4px 10px black);
   margin: auto;
   transition: 1s;
   cursor: pointer;

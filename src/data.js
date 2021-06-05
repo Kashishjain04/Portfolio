@@ -12,12 +12,12 @@ export const about = (
 );
 
 export const projects = [
-  {
-    name: "Covid-19 Dashboard",
-    link: "https://cov19india.live",
-    repo: "https://github.com/Kashishjain04/covid-19",
-    src: "assets/img/covid.png",
-  },
+  // {
+  //   name: "Covid-19 Dashboard",
+  //   link: "https://cov19india.live",
+  //   repo: "https://github.com/Kashishjain04/covid-19",
+  //   src: "assets/img/covid.png",
+  // },
   {
     name: "Personal Portfolio",
     link: "https://kashishjain.tech",
@@ -37,13 +37,19 @@ export const projects = [
     src: "assets/img/chatdeck.png",
   },
   {
+    name: "Amazon Clone",
+    link: "https://amazon.kashishjain.tech",
+    repo: "https://github.com/Kashishjain04/Amazon-next-clone",
+    src: "assets/img/amazon.png",
+  },
+  {
     name: "Huntegy",
     link: "https://huntegy.web.app",
     repo: "https://github.com/kashishjain04/huntegy",
     src: "assets/img/huntegy.png",
   },
   {
-    name: "Google Clone",
+    name: "Google Search Clone",
     link: "https://kj-google.vercel.app/",
     repo: "https://github.com/Kashishjain04/Google-Clone",
     src: "assets/img/google.svg",
