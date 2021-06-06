@@ -12,12 +12,12 @@ export const about = (
 );
 
 export const projects = [
-  // {
-  //   name: "Covid-19 Dashboard",
-  //   link: "https://cov19india.live",
-  //   repo: "https://github.com/Kashishjain04/covid-19",
-  //   src: "assets/img/covid.png",
-  // },
+  {
+    name: "Covid-19 Dashboard",
+    link: "https://covid19.kashishjain.tech",
+    repo: "https://github.com/Kashishjain04/Covid19india-next",
+    src: "assets/img/covid.png",
+  },
   {
     name: "Personal Portfolio",
     link: "https://kashishjain.tech",
