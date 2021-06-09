@@ -18,7 +18,14 @@ const Header = () => {
         <div className="nav__menu" id="nav-menu">
           <ScrollspyNav
             className="nav__menu"
-            scrollTargetIds={["home", "about", "skills", "projects", "contact"]}
+            scrollTargetIds={[
+              "home",
+              "about",
+              "skills",
+              "projects",
+              "certificates",
+              "contact",
+            ]}
             offset={-50}
             activeNavClass="active"
             scrollDuration="150"
@@ -28,6 +35,7 @@ const Header = () => {
               <NavItem to="#about" name="About" />
               <NavItem to="#skills" name="Skills" />
               <NavItem to="#projects" name="Projects" />
+              <NavItem to="#certificates" name="Certificates" />
               <NavItem to="#contact" name="Contact" />
             </ul>
           </ScrollspyNav>

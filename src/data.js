@@ -74,66 +74,85 @@ export const projects = [
   },
 ];
 
-export const skills = {
-  languages: [
-    {
-      name: "HTML5",
-      iconClass: "bxl-html5",
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
-    },
-    {
-      name: "CSS3",
-      iconClass: "bxl-css3",
-      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    },
-    {
-      name: "JAVASCRIPT",
-      iconClass: "bxl-javascript",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    },
-    {
-      name: "C++",
-      iconClass: "bxl-c-plus-plus",
-      link: "https://www.w3schools.com/cpp/",
-    },
-    {
-      name: "PYTHON",
-      iconClass: "bxl-python",
-      link: "https://docs.python.org/3/",
-    },
-  ],
-  technologies: [
-    {
-      name: "REACT",
-      iconClass: "bxl-react",
-      link: "https://reactjs.org/docs/getting-started.html",
-    },
-    {
-      name: "REDUX",
-      iconClass: "bxl-redux",
-      link: "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
-    },
-    {
-      name: "FIREBASE",
-      iconClass: "bxl-firebase",
-      link: "https://firebase.google.com/docs",
-    },
-    {
-      name: "NODE.JS",
-      iconClass: "bxl-nodejs",
-      link: "https://nodejs.org/en/docs/",
-    },
-    {
-      name: "MONGODB",
-      iconClass: "bx-data",
-      link: "https://docs.mongodb.com/manual/",
-    },
-    {
-      name: "EXPRESS",
-      iconClass: "bx-server",
-      link: "https://expressjs.com/en/4x/api.html",
-    },
-  ],
+export const skills = [
+  {
+    name: "HTML5",
+    iconClass: "bxl-html5",
+    link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+  },
+  {
+    name: "CSS3",
+    iconClass: "bxl-css3",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    name: "JAVASCRIPT",
+    iconClass: "bxl-javascript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "C++",
+    iconClass: "bxl-c-plus-plus",
+    link: "https://www.w3schools.com/cpp/",
+  },
+  {
+    name: "PYTHON",
+    iconClass: "bxl-python",
+    link: "https://docs.python.org/3/",
+  },
+  {
+    name: "REACT",
+    iconClass: "bxl-react",
+    link: "https://reactjs.org/docs/getting-started.html",
+  },
+  {
+    name: "REDUX",
+    iconClass: "bxl-redux",
+    link: "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+  },
+  {
+    name: "FIREBASE",
+    iconClass: "bxl-firebase",
+    link: "https://firebase.google.com/docs",
+  },
+  {
+    name: "NODE.JS",
+    iconClass: "bxl-nodejs",
+    link: "https://nodejs.org/en/docs/",
+  },
+  {
+    name: "MONGODB",
+    iconClass: "bx-data",
+    link: "https://docs.mongodb.com/manual/",
+  },
+  {
+    name: "EXPRESS",
+    iconClass: "bx-server",
+    link: "https://expressjs.com/en/4x/api.html",
+  },
+];
+export const certificates = {
+  "rexora-intern": {
+    type: "internship",
+    src: "/assets/certificates/rexora-intern.png",
+    title: "Internship at Rexora Edulabs Pvt. Ltd.",
+    description:
+      "I worked for 2 months as a React Developer Intern at Rexora Edulabs Pvt. Ltd.",
+  },
+  swoc: {
+    type: "event",
+    src: "/assets/certificates/swoc.png",
+    title: "Open Source Contribution event by Script Foundation",
+    description:
+      "I participated as an active open source contributor at Script Wonter of Code and contributed to many open source repositories under the programme.",
+  },
+  "webd-bootcamp-course": {
+    type: "course",
+    src: "/assets/certificates/webd-bootcamp-course.png",
+    title: "Full Stack Web Development course on Udemy",
+    description:
+      "I started my Web Development career with this course by Dr. Angela Yu. I learnt all basics of HTML, CSS, JS, backend using Node.js & express.js, MongoDb as a database and beginner React.",
+  },
 };
 export const contacts = [
   {

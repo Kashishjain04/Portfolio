@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.certificatePage {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 3fr 2fr;
+}
+.certificatePage__img {
+  width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  padding: 2rem;
+  border-right: 1px solid #ccc;
+}
+.certificatePage__details {
+  padding: 2rem;
+  word-break: break-word;
+}
+.certificatePage__title {
+  color: var(--first-color);
+}
+.certificatePage__description {
+  color: var(--second-color);
+}
+
+@media screen and (max-width: 768px) {
+  .certificatePage {
+    grid-template-columns: 1fr;
+  }
+  .certificatePage__img {
+    grid-row: 2;
+    border-right: none;
+  }
+}

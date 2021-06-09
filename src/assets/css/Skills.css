@@ -4,9 +4,6 @@
 .skills__list {
   row-gap: 3rem;
 }
-.skills__subtitle {
-  margin-bottom: var(--mb-2);
-}
 html.theme2 .skills__data {
   background-color: #716e6e5c;
 }

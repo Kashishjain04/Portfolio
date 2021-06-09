@@ -2,7 +2,6 @@
 
 body {
   background-color: var(--fourth-color);
-  margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);

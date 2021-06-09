@@ -9,23 +9,42 @@ import "./assets/css/Variables.css";
 import "./assets/css/Main.css";
 import ThemeToggle from "./Components/ThemeToggle";
 import AOS from "aos";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import CertificatePage from "./CertificatePage";
+import Certificates from "./Components/Certificates";
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });    
+    AOS.init({ duration: 1000 });
   }, []);
 
-  return (
-    <div className="App">
-      <ThemeToggle />
+  const HomePage = () => (
+    <>
       <Header />
       <div className="l-main">
         <Home />
         <About />
         <Skills />
         <Projects />
+        <Certificates />
         <Contact />
       </div>
+    </>
+  );
+
+  return (
+    <div className="App">
+      <ThemeToggle />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route
+            path="/certificate/:certId"
+            exact
+            component={CertificatePage}
+          />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
