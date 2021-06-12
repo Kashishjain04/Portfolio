@@ -144,15 +144,21 @@ export const certificates = {
     src: "/assets/certificates/swoc.png",
     title: "Open Source Contribution event by Script Foundation",
     description:
-      "I participated as an active open source contributor at Script Wonter of Code and contributed to many open source repositories under the programme.",
+      "I participated as an active open source contributor at Script Winter of Code and contributed to many open source repositories under the programme.",
   },
   "webd-bootcamp-course": {
     type: "course",
     src: "/assets/certificates/webd-bootcamp-course.png",
     title: "Full Stack Web Development course on Udemy",
     description:
-      "I started my Web Development career with this course by Dr. Angela Yu. I learnt all basics of HTML, CSS, JS, backend using Node.js & express.js, MongoDb as a database and beginner React.",
+      "I started my Web Development career with this course by The App Brewery. I learnt all basics of HTML, CSS, JS, backend using Node.js & express.js, MongoDb as a database and beginner React.",
   },
+"coding-blocks-stl": {
+	type: "course",
+    src: "/assets/certificates/coding-blocks-stl.png",
+    title: "C++ STL course on Coding Blocks",
+    description: "In this course, I learn't the Standard Template Library in C++ and also implemented it in practice problems and competitive challenges."
+}
 };
 export const contacts = [
   {
