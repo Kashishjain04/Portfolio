@@ -153,12 +153,13 @@ export const certificates = {
     description:
       "I started my Web Development career with this course by The App Brewery. I learnt all basics of HTML, CSS, JS, backend using Node.js & express.js, MongoDb as a database and beginner React.",
   },
-"coding-blocks-stl": {
-	type: "course",
+  "coding-blocks-stl": {
+    type: "course",
     src: "/assets/certificates/coding-blocks-stl.png",
     title: "C++ STL course on Coding Blocks",
-    description: "In this course, I learn't the Standard Template Library in C++ and also implemented it in practice problems and competitive challenges."
-}
+    description:
+      "In this course, I learn't the Standard Template Library in C++ and also implemented it in practice problems and competitive challenges.",
+  },
 };
 export const contacts = [
   {
