@@ -160,6 +160,13 @@ export const certificates = {
     description:
       "In this course, I learn't the Standard Template Library in C++ and also implemented it in practice problems and competitive challenges.",
   },
+  "acm-foundation-day": {
+    type: "event",
+    src: "/assets/certificates/acm-foundation-day.png",
+    title: "ACM Foundation Day Quiz",
+    description:
+      "I participated and secured 1st position in ACM online quiz organized by ACM USICT chapter on ACM foundation day 2020.",
+  },
 };
 export const contacts = [
   {
