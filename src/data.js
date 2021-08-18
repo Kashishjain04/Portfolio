@@ -132,6 +132,13 @@ export const skills = [
   },
 ];
 export const certificates = {
+  "siren24-intern": {
+    type: "internship",
+    src: "/assets/certificates/siren24-intern.png",
+    title: "Internship at Siren24 under Tree Apple Healthcare Pvt. Ltd.",
+    description:
+      " I worked on Siren-24 (Online ambulance booking app) Web and Android for 2 months. I used technologies like ReactJs, React-Native and Firebase.",
+  },
   "rexora-intern": {
     type: "internship",
     src: "/assets/certificates/rexora-intern.png",
