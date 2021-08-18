@@ -13,10 +13,12 @@ const Home = () => (
       </h1>
 
       <a
-      data-aos="fade-down"
+        data-aos="fade-down"
         href="/assets/Kashish Jain - Resume.pdf"
         className="button"
-        download="Kashish Jain - Resume"
+        target="_blank"
+        rel="noopener noreferrer"
+        // download="Kashish Jain - Resume"
       >
         Resume
       </a>
@@ -108,7 +110,7 @@ const Home = () => (
         />
         <ellipse cx="194.86" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
         <ellipse cx="497.8" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
-      </svg>      
+      </svg>
     </div>
   </div>
 );
