@@ -174,6 +174,12 @@ export const certificates = {
     description:
       "I participated and secured 1st position in ACM online quiz organized by ACM USICT chapter on ACM foundation day 2020.",
   },
+  "adobe-ux": {
+    type: "course",
+    src: "/assets/certificates/adobe-ux.png",
+    title: "Adobe UX Foundation Learning Journey",
+    description: "I learned UX design using Adobe XD.",
+  },
 };
 export const contacts = [
   {
