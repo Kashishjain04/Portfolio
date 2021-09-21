@@ -174,6 +174,13 @@ export const certificates = {
     description:
       "I participated and secured 1st position in ACM online quiz organized by ACM USICT chapter on ACM foundation day 2020.",
   },
+  "html-hints": {
+    type: "event",
+    src: "/assets/certificates/html-hints.png",
+    title: "HTML Hints Coding Contest",
+    description:
+      "I participated and secured 1st position in a contest organised by HTML Hints. I designed an Interactive Login Page using HTML and CSS and validation using JS. The page is hosted at https://kashishjain04.github.io/HtmlHints-Login",
+  },
   "adobe-ux": {
     type: "course",
     src: "/assets/certificates/adobe-ux.png",
