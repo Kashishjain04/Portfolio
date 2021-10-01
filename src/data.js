@@ -68,7 +68,7 @@ export const projects = [
   // },
   {
     name: "Mummy Da Dhaba",
-    // link: "https://momkitchens.me",
+    link: "https://mummydadhaba.netlify.app",
     repo: "https://github.com/Kashishjain04/momkitchen_react",
     src: "assets/img/Mymmydadhaba.png",
   },
