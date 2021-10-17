@@ -6,7 +6,6 @@ const ThemeToggle = () => {
 
   useEffect(() => {
     const localTheme = localStorage.getItem("theme") || "0";
-    console.log(localTheme);
     if (localTheme) {
       htmlEl.classList.add("theme" + localTheme);
       htmlEl.setAttribute("theme", localTheme);
