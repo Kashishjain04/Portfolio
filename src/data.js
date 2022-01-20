@@ -132,12 +132,19 @@ export const skills = [
   },
 ];
 export const certificates = {
+  "beyondexams-intern": {
+    type: "internship",
+    src: "/assets/certificates/beyondexams-intern.png",
+    title: "Internship at BeyondExams under The Maslow Initiative",
+    description:
+      "I created Sparky Science Labs (<a href='https://sparkysciencelab.com' target='_blank' rel='noreferrer noopener'>https://sparkysciencelab.com</a>) from scratch where students can perform science experiments virtually. Apart from that I also added some new features into beyondexams main site (<a href='https://beyondexams.org' target='_blank' rel='noreferrer noopener'>https://beyondexams.org</a>). I used and learnt technologies like ReactJs, Firebase, PHP and Wordpress.",
+  },
   "siren24-intern": {
     type: "internship",
     src: "/assets/certificates/siren24-intern.png",
     title: "Internship at Siren24 under Tree Apple Healthcare Pvt. Ltd.",
     description:
-      " I worked on Siren-24 (Online ambulance booking app) Web and Android for 2 months. I used technologies like ReactJs, React-Native and Firebase.",
+      "I worked on Siren-24 (Online ambulance booking app) Web and Android for 2 months. I used technologies like ReactJs, React-Native and Firebase.",
   },
   "rexora-intern": {
     type: "internship",
@@ -179,7 +186,7 @@ export const certificates = {
     src: "/assets/certificates/html-hints.png",
     title: "HTML Hints Coding Contest",
     description:
-      "I participated and secured 1st position in a contest organised by HTML Hints. I designed an Interactive Login Page using HTML and CSS and validation using JS. The page is hosted at https://kashishjain04.github.io/HtmlHints-Login",
+      "I participated and secured 1st position in a contest organised by HTML Hints. I designed an Interactive Login Page using HTML and CSS and validation using JS. The page is hosted at <a href='https://kashishjain04.github.io/HtmlHints-Login' target='_blank' rel='noreferrer noopener'>https://kashishjain04.github.io/HtmlHints-Login</a>.",
   },
   "adobe-ux": {
     type: "course",
