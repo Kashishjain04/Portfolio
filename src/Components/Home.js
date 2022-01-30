@@ -15,7 +15,7 @@ const Home = () => (
       <a
         data-aos="fade-down"
         // href="/assets/Kashish Jain - Resume.pdf"
-        href="https://links.kashishjain.tech/qtp43wsqa"
+        href="https://links.kashishjain.tech/resume"
         className="button"
         target="_blank"
         rel="noopener noreferrer"
