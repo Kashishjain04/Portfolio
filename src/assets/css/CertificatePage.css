@@ -24,6 +24,25 @@
 .certificatePage__description {
   color: var(--second-color);
 }
+.certificatePage_view {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certificatePage_view > a{
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+  min-width: 50%;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--first-color);
+}
 
 @media screen and (max-width: 768px) {
   .certificatePage {
@@ -32,5 +51,9 @@
   .certificatePage__img {
     grid-row: 2;
     border-right: none;
+  }
+  .certificatePage_view > a{
+    font-size: 14px;
+    width: fit-content;
   }
 }
