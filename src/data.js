@@ -14,7 +14,7 @@ export const projects = [
 	{
 		name: "Covid-19 Dashboard",
 		link: "https://covid19.kashishjain.tech",
-		repo: "https://github.com/Kashishjain04/Covid19india-next",
+		repo: "https://github.com/Kashishjain04/covid19-react",
 		src: "assets/img/covid.png",
 	},
 	{
