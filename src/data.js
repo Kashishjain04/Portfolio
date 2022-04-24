@@ -12,6 +12,18 @@ export const about = (
 
 export const projects = [
 	{
+		name: "Bahi-Book",
+		link: "https://bahi-book.web.app",
+		repo: "https://github.com/Kashishjain04/bahi-book",
+		src: "https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7",
+	},
+	{
+		name: "URL Shortener",
+		link: "https://kj-links.vercel.app",
+		repo: "https://github.com/Kashishjain04/links",
+		src: "icons/logo.png",
+	},
+	{
 		name: "Covid-19 Dashboard",
 		link: "https://covid19.kashishjain.tech",
 		repo: "https://github.com/Kashishjain04/covid19-react",
@@ -22,12 +34,6 @@ export const projects = [
 		link: "https://kashishjain.tech",
 		repo: "https://github.com/Kashishjain04/Portfolio",
 		src: "icons/logo.png",
-	},
-	{
-		name: "Bahi-Book",
-		link: "https://bahi-book.web.app",
-		repo: "https://github.com/Kashishjain04/bahi-book",
-		src: "https://firebasestorage.googleapis.com/v0/b/bahi-book.appspot.com/o/icon.png?alt=media&token=13344b24-3410-4047-957a-e6447432c4e7",
 	},
 	{
 		name: "ChatDeck",
