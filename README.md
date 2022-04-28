@@ -1,9 +1,9 @@
 # Kashish Jain Portfolio
 
-<img src="https://kashishjain.tech/icons/logo.png" alt="icon" />
+<img src="https://kashishj.me/icons/logo.png" alt="icon" />
 
 <hr />
-Live at: https://kashishjain.tech
+Live at: https://kashishj.me
 <hr />
 
 ### Sections

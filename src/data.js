@@ -19,19 +19,19 @@ export const projects = [
 	},
 	{
 		name: "URL Shortener",
-		link: "https://kj-links.vercel.app",
+		link: "https://links.kashishj.me",
 		repo: "https://github.com/Kashishjain04/links",
 		src: "icons/logo.png",
 	},
 	{
 		name: "Covid-19 Dashboard",
-		link: "https://covid19.kashishjain.tech",
+		link: "https://covid19.kashishj.me",
 		repo: "https://github.com/Kashishjain04/covid19-react",
 		src: "assets/img/covid.png",
 	},
 	{
 		name: "Personal Portfolio",
-		link: "https://kashishjain.tech",
+		link: "https://kashishj.me",
 		repo: "https://github.com/Kashishjain04/Portfolio",
 		src: "icons/logo.png",
 	},
@@ -43,7 +43,7 @@ export const projects = [
 	},
 	{
 		name: "Amazon Clone",
-		link: "https://amazon.kashishjain.tech",
+		link: "http://amazon.kashishj.me",
 		repo: "https://github.com/Kashishjain04/Amazon-next-clone",
 		src: "assets/img/amazon.png",
 	},
@@ -55,13 +55,13 @@ export const projects = [
 	},
 	{
 		name: "Google Search Clone",
-		link: "https://kj-google.vercel.app/",
+		link: "https://kj-google.vercel.app",
 		repo: "https://github.com/Kashishjain04/Google-Clone",
 		src: "assets/img/google.svg",
 	},
 	{
 		name: "Whatsapp Clone",
-		link: "https://whatsapp.kashishjain.tech/",
+		link: "https://whatsapp.kashishj.me",
 		repo: "https://github.com/Kashishjain04/Whatsapp-Clone-client",
 		src: "assets/img/whatsapp.png",
 	},
