@@ -42,10 +42,10 @@ export const projects = [
 		src: "assets/img/chatdeck.png",
 	},
 	{
-		name: "Amazon Clone",
-		link: "http://amazon.kashishj.me",
-		repo: "https://github.com/Kashishjain04/Amazon-next-clone",
-		src: "assets/img/amazon.png",
+		name: "Flipkart Clone",
+		link: "http://flipkart.kashishj.me",
+		repo: "https://github.com/Kashishjain04/E-Commerce",
+		src: "assets/img/flipkart.png",
 	},
 	{
 		name: "Huntegy",
