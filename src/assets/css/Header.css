@@ -46,14 +46,24 @@
 
 @media screen and (max-width: 768px) {
   .nav__menu {
+    z-index: 999999999999999999999;
     position: fixed;
     top: var(--header-height);
-    right: -100%;
-    width: 80%;
-    height: 100%;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
     padding: 2rem;
     background-color: var(--sidebar-bg);
-    transition: 0.5s;
+    clip-path: circle(100px at 100% -15%);
+    -webkit-clip-path: circle(100px at 100% -15%);
+    transition: all 1s ease-in-out;
+  }
+  .nav__list{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
@@ -70,7 +80,9 @@
 
 /*=== Show menu ===*/
 .show {
-  right: 0;
+  clip-path: circle(1300px at 100% -15%);
+  -webkit-clip-path: circle(1300px at 100% -15%);
+  pointer-events: all;
 }
 
 @media screen and (min-width: 768px) {

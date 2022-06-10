@@ -43,7 +43,7 @@ const Home = () => (
       </a>
     </div>
 
-    <div className="home__img" data-aos="fade-left">
+    {/* <div className="home__img" data-aos="fade-left">
       <svg
         id="457bf273-24a3-4fd8-a857-e9b918267d6a"
         data-name="Layer 1"
@@ -113,7 +113,7 @@ const Home = () => (
         <ellipse cx="194.86" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
         <ellipse cx="497.8" cy="372.3" rx="14.09" ry="26.42" fill="#fdb797" />
       </svg>
-    </div>
+    </div> */}
   </div>
 );
 

@@ -19,21 +19,15 @@ export const projects = [
 	},
 	{
 		name: "URL Shortener",
-		link: "https://links.kashishj.me",
+		link: "https://links.kjdev.tech",
 		repo: "https://github.com/Kashishjain04/links",
 		src: "icons/logo.png",
 	},
 	{
 		name: "Covid-19 Dashboard",
-		link: "https://covid19.kashishj.me",
+		link: "https://covid19.kjdev.tech",
 		repo: "https://github.com/Kashishjain04/covid19-react",
 		src: "assets/img/covid.png",
-	},
-	{
-		name: "Personal Portfolio",
-		link: "https://kashishj.me",
-		repo: "https://github.com/Kashishjain04/Portfolio",
-		src: "icons/logo.png",
 	},
 	{
 		name: "ChatDeck",
@@ -42,8 +36,14 @@ export const projects = [
 		src: "assets/img/chatdeck.png",
 	},
 	{
+		name: "Reddit Clone",
+		link: "http://reddit.kjdev.tech",
+		repo: "https://github.com/Kashishjain04/E-Commerce",
+		src: "assets/img/reddit.png",
+	},
+	{
 		name: "Flipkart Clone",
-		link: "http://flipkart.kashishj.me",
+		link: "http://flipkart.kjdev.tech",
 		repo: "https://github.com/Kashishjain04/E-Commerce",
 		src: "assets/img/flipkart.png",
 	},
@@ -61,7 +61,7 @@ export const projects = [
 	},
 	{
 		name: "Whatsapp Clone",
-		link: "https://whatsapp.kashishj.me",
+		link: "https://whatsapp.kjdev.tech",
 		repo: "https://github.com/Kashishjain04/Whatsapp-Clone-client",
 		src: "assets/img/whatsapp.png",
 	},

@@ -4,7 +4,7 @@
   height: 30px;
   border-radius: 50%;
   background-color: #fff;
-  position: fixed;
+  position: absolute;
   top: 150px;
   right: 10px;
   overflow: hidden;
@@ -23,7 +23,7 @@
 .themeArrow {
   z-index: 10;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 185px;
   right: 17px;
 }

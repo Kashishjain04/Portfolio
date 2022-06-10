@@ -5,11 +5,15 @@ html.theme2 .project__img {
   background-color: #716e6e5c;
 }
 .project__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
   padding: 20px;
-  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .project__img {
