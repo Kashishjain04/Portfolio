@@ -1,12 +1,15 @@
 export const name = "Kashish";
 export const surname = "Jain";
-export const title = "Web Developer";
+export const title = "Software Developer";
+export const resume = "https://storage.googleapis.com/kashishjain.appspot.com/Kashish%20Jain%20-%20Resume.pdf";
+export const linkedin = "https://links.kjdev.tech/linkedin";
+export const github = "https://links.kjdev.tech/github";
 
 export const about = (
 	<>
-		Enthusiastic <b>Web Developer, Freelancer</b> eager to contribute to team success through hard work,
+		Enthusiastic <b>Software Developer</b> eager to contribute to team success through hard work,
 		attention to detail and excellent organizational skills. Clear understanding of Javascript, React,
-		Redux and MERN. Motivated to learn, grow and excel in the Dev industry.
+		Redux and MERN and currently learning IOS Development using Swift. Motivated to learn, grow and excel in the Dev industry.
 	</>
 );
 
@@ -21,7 +24,7 @@ export const projects = [
 		name: "URL Shortener",
 		link: "https://links.kjdev.tech",
 		repo: "https://github.com/Kashishjain04/links",
-		src: "icons/logo.png",
+		src: "assets/img/links.png",
 	},
 	{
 		name: "Covid-19 Dashboard",
