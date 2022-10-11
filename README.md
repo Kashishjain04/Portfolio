@@ -1,11 +1,20 @@
 # Kashish Jain Portfolio
 
-<img src="https://kashishj.me/icons/logo.png" alt="icon" />
+## Deprecated
+
+```
+Note: Older version of Kashish Jain's Portfolio
+New Portfolio is available at: https://gitlab.com/Kashishjain04/portfolio
+```
+
+<img src="https://kashishjain.tech/logo.png" alt="icon" />
 
 <hr />
-Live at: https://kashishj.me
+Live at: https://kashishjain.tech
 <hr />
 
+
+```Older Specifications```
 ### Sections
 
 - Header
@@ -14,7 +23,7 @@ Live at: https://kashishj.me
 - Projects
 - Certificates
 - Contact
-<hr />
+
 
 ### Tech Used
 
