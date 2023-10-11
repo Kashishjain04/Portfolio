@@ -7,10 +7,10 @@ Note: Older version of Kashish Jain's Portfolio
 New Portfolio is available at: https://gitlab.com/Kashishjain04/portfolio
 ```
 
-<img src="https://kashishjain.tech/logo.png" alt="icon" />
+<img src="https://kashishjain.dev/logo.png" alt="icon" />
 
 <hr />
-Live at: https://kashishjain.tech
+Live at: https://kashishjain.dev
 <hr />
 
 
