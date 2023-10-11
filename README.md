@@ -10,7 +10,9 @@ New Portfolio is available at: https://github.com/Kashishjain04/Portfolio-new
 <img src="https://kashishjain.dev/logo.png" alt="icon" />
 
 <hr />
-Live at: https://kashishjain.dev
+Old version Live at: https://kashishjain.netlify.app
+<hr />
+New Portfolio Live at: https://kashishjain.dev
 <hr />
 
 
