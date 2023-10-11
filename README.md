@@ -4,7 +4,7 @@
 
 ```
 Note: Older version of Kashish Jain's Portfolio
-New Portfolio is available at: https://gitlab.com/Kashishjain04/portfolio
+New Portfolio is available at: [https://github.com/Kashishjain04/Portfolio-new](https://github.com/Kashishjain04/Portfolio-new)
 ```
 
 <img src="https://kashishjain.dev/logo.png" alt="icon" />
